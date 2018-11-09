@@ -19,6 +19,7 @@ namespace ContosoUniversity.Pages.Course
         }
 
         public IList<ContosoUniversity.Models.Course> Course { get; set; }
+        
 
         public async Task OnGetAsync()
         {
